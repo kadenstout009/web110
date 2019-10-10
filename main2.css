@@ -1,3 +1,47 @@
+.image-places {
+    visibility: .5;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkcyan;
+    position: relative;
+}
+h2 {
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+* {
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.623);
+}
+ul#main-nav {
+    background-color: darkslategrey;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+
+}
+ul#main-nav {
+    float: center;
+}
+ul#main-nav li a {
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: bold;
+    }
+ul li a:hover {
+    background-color: darkcyan;
+}
 body {
-    background-image: element(../assets/images/download-1.jpg);
+    position: fixed static;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid darkslategray;
+    padding: 5px 5px;
+    margin: 3px 2px;
 }
