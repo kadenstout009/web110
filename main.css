@@ -1,0 +1,58 @@
+body {
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(124, 117, 117, 0.521);
+    text-align: center;
+}
+ul#mainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(31, 31, 31, 0.808);
+    border-radius: 2%;
+}
+ul#mainNav li {
+    float: inherit;
+}
+ul#mainNav li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: rgb(27, 26, 26);
+    color: rgba(9, 153, 153, 0.637);
+}
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(8, 92, 92, 0.5);
+}
+h2 {
+    color: rgba(31, 31, 31, 0.808);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color: rgba(31, 31, 31, 0.808);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: rgba(31, 31, 31, 0.808);
+}
+.homePics {
+    border: 2px solid rgba(31, 31, 31, 0.808); 
+    border-radius: 2%;
+}
+.mainSec {
+    border: 3px solid rgba(31, 31, 31, 0.808);
+    border-radius: 1%;
+    border-top-color: rgba(9, 153, 153, 0.637);
+    border-bottom-color: rgba(9, 153, 153, 0.637);
+    background-color: rgba(206, 206, 206, 0.74);
+    padding: 5px 0px 10px 0px;
+}
