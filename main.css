@@ -35,6 +35,7 @@ h4 {
 h2 {
     color: rgba(31, 31, 31, 0.808);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid rgba(9, 153, 153, 0.637);
 }
 h1 {
     font-size: 40px;
@@ -55,4 +56,24 @@ p {
     border-bottom-color: rgba(9, 153, 153, 0.637);
     background-color: rgba(206, 206, 206, 0.74);
     padding: 5px 0px 10px 0px;
+}
+.image-places {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+ol {
+    padding: 0px;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+ol li {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ul {
+    list-style: decimal;
+    padding: 0px;
+    margin-left: 205px;
+    margin-right: 205px;
 }
