@@ -77,3 +77,8 @@ ol li {
     margin-left: 205px;
     margin-right: 205px;
 }
+.table {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
